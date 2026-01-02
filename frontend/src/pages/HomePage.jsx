@@ -31,7 +31,7 @@ const HomePage = () => {
         {isLoadingPosts && (
           <div className="flex flex-col items-center gap-2">
             <div className="animate-spin h-8 w-8 border-4 border-pink-500 border-t-transparent rounded-full"></div>
-            <p className="text-gray-500 text-sm">Fetching posts...</p>
+            <p className="text-gray-500 text-sm">Loading posts...</p>
           </div>
         )}
 
